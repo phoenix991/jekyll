@@ -2,7 +2,7 @@
 
 module Jekyll
   module Utils
-    extend self
+    module_function
     autoload :Ansi, "jekyll/utils/ansi"
     autoload :Exec, "jekyll/utils/exec"
     autoload :Internet, "jekyll/utils/internet"

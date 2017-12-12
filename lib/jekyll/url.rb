@@ -1,17 +1,17 @@
 # frozen_string_literal: true
 
-require "addressable/uri"
+equire "addressable/uri"
 
 # Public: Methods that generate a URL for a resource such as a Post or a Page.
 #
 # Examples
 #
 #   URL.new({
-#     :template => /:categories/:title.html",
+     :template => /:categories/:title.html",
 #     :placeholders => {:categories => "ruby", :title => "something"}
 #   }).to_s
 #
-module Jekyll
+odule Jekyll
   class URL
     # options - One of :permalink or :template must be supplied.
     #           :template     - The String used as template for URL generation,

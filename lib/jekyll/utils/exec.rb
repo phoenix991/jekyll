@@ -5,7 +5,7 @@ require "open3"
 module Jekyll
   module Utils
     module Exec
-      extend self
+      module_function
 
       # Runs a program in a sub-shell.
       #

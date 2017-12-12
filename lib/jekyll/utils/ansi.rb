@@ -3,7 +3,7 @@
 module Jekyll
   module Utils
     module Ansi
-      extend self
+      module_function
 
       ESCAPE = format("%c", 27)
       MATCH = %r!#{ESCAPE}\[(?:\d+)(?:;\d+)*(j|k|m|s|u|A|B|G)|\e\(B\e\[m!ix

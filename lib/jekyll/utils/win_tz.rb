@@ -3,7 +3,7 @@
 module Jekyll
   module Utils
     module WinTZ
-      extend self
+      module_function
 
       # Public: Calculate the Timezone for Windows when the config file has a defined
       #         'timezone' key.

@@ -2,7 +2,7 @@
 
 module Jekyll
   module Deprecator
-    extend self
+    module_function
 
     def process(args)
       arg_is_present? args, "--server", "The --server command has been replaced by the \
